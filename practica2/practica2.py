@@ -1,3 +1,69 @@
+#1
+palabra = input("Esta palabra: ")
+print(palabra[0] == palabra[0].upper())
+#2
+numeor = int(input('introduce unn numero: '))
+if numeor > 0 and numeor % 2==0:
+    print("Es positivo y es par")
+elif numeor > 0 and numeor % 2!=0:
+    print("Es positivo y es impar")
+elif numeor < 0 and numeor % -2==0:
+    print("Es negativo y es par")
+elif numeor < 0 and numeor % -2!=0:
+    print("Es negativo y es impar")
+else:
+    print('Es cero y par')
+
+#3
+numero = int(input("Numero de la cara contraria: "))
+if numero == 1:
+    print  ('6')
+elif numero == 2:
+    print('5')
+elif numero == 3:
+    print('4')
+elif numero == 4:
+    print ('3')
+elif numero == 5:
+    print ('2')
+elif numero == 6:
+    print ('1')
+else:
+    print ('No es un numero valido')
+#4
+zona = (input("Ubicacion del paquete: ")) 
+peso = int(input('Peso del paquete: '))
+
+if zona == ("america del sur") and (peso <= 5):
+    print (peso*10)
+elif zona  == 'america central'and (peso <= 5):
+    print(peso*15)
+elif zona == 'america del norte'and (peso <= 5):
+    print (peso*18)
+elif zona == 'europa'and (peso <= 5):
+    print (peso*24)
+elif zona == 'asia' and (peso <= 5):
+    print (peso*30)
+else:
+    print('El peso excede los limites')
+#5
+dia = int(input('Dia de la semana: '))
+if dia == 1:
+    print  ('Lunes')
+elif dia == 2:
+    print('Martes')
+elif dia == 3:
+    print('Miercoles')
+elif dia == 4:
+    print ('Jueves')
+elif dia == 5:
+    print ('Viernes')
+elif dia == 6:
+    print ('Sabado')
+elif dia == 7:
+    print ('Domingo')
+else:
+    print("Numero incorrecto")
 #6 da vuelta la lista ingresada por teclado
 '''
 lista1 = []
